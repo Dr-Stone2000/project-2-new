@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    height: 100vh;
+    background: url(https://i.pinimg.com/736x/02/66/c7/0266c7ea51dd213023c99242a805c578.jpg) no-repeat center center/cover;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+hr{
+    border: dotted 10px #000;
+    border-bottom: none;
+    width: 70%;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.header-section {
+    position: relative;
+    display: flex;
+    height: 70px;
+    background: #DF9755;
+    justify-content: space-between;
+    border-radius: 0;
+    padding: 0 20px;
+    border-radius: 0 0 25px 25px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%
+}
+
+.home-section {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 100px 50px;
+    padding: 30px;
+    border-radius: 20px 20px;
+}
+
+.my-img {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 25%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.my-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.name-tag {
+    position: relative;
+    right: 400px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 10px 0 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(255, 255, 255, 0.7);
+
+}
+
+.skills {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 0;
+    width: 90%;
+    border: 50px;
+}
+
+.web-image {
+    width: 170px;
+    float: left;
+    margin-right: 10px;
+}
+
+.webdev {
+    display: inline-flexbox;
+    position: relative;
+    width: 70%;
+    height: 50%;
+    margin: 5px 0 20px 0;
+    font-size: 1.5rem;
+}
+
+.graphic-img {
+    width: 120px;
+    float: right;
+    margin-left: 10px;
+}
+
+.graphic {
+    display: inline-flexbox;
+    position: relative;
+    width: 70%;
+    height: 50%;
+    margin: 0 5px;
+    font-size: 1.5rem;
+}
+
+.job {
+    line-height: 1;
+    color: #09122C;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(255, 255, 255, 0.7);
+    font-size: 1.5rem;
+}
+
+.ok {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(255, 255, 255, 0.7);
+    font-size: 2.5rem;
+}
+
+.footer-section {
+    background: #DF9755;
+    height: 130px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 25px 25px 0 0;
+    align-items: center;
+    text-align: center;
+}
+
+.footer p {
+    position: relative;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-items: center;
+    width: 100% 0;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 45px;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.btn:hover {
+    background: transparent;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.social {
+    position: relative;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 40px 10px;
+}
+
+.footer-section .social:hover {
+    text-decoration: underline;
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+}
